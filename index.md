@@ -8,8 +8,8 @@
 <img src="images/crime.png?raw=true"/>
 
 ---
-[Uber Fare Prediction](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Uber Fare Prediction](https://github.com/sahilnale/uber_fare/blob/main/Uber_Fare_Prediction.ipynb)
+<img src="images/uber.webp?raw=true"/>
 
 ---
 [Spotify Genre Prediction](http://example.com/)
