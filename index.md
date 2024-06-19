@@ -4,20 +4,20 @@
 
 ### Data Science
 
-[Uber Fare Prediction](/sample_page)
+[Los Angeles Crime Analysis](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Uber Fare Prediction](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Spotify Genre Prediction](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+### Web Applications
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
