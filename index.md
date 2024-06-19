@@ -12,8 +12,8 @@
 <img src="images/uber.webp?raw=true"/>
 
 ---
-[Spotify Genre Prediction](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Spotify Genre Prediction](https://github.com/sahilnale/music_genre_classification/blob/main/README.ipynb)
+<img src="images/spotify.jpeg?raw=true"/>
 
 ---
 
