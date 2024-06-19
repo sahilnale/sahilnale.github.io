@@ -4,7 +4,7 @@
 
 ### Data Science
 
-[Los Angeles Crime Analysis](/sample_page)
+[Los Angeles Crime Analysis](https://github.com/sahilnale/uber_fare/blob/main/Uber_Fare_Prediction.ipynb)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
