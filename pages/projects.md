@@ -10,7 +10,7 @@ FindMyFood is a full-stack iOS application to manage and share restaurant visits
 
 **Technologies:** SwiftUI, Firebase, MapKit, MongoDB, AWS S3
 
-### [react-vscode-portfolio](https://github.com/noworneverev/react-vscode-portfolio) 🔗
+### [react-vscode-portfolio](https://github.com/sahilnale/sahilnale.github.io) 🔗
 - What you are looking at now
 - A VS Code inspired portfolio project
 - Responsive Web Design 
