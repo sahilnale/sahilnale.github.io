@@ -16,6 +16,7 @@
 - C++
 - Java
 - Swift
+- R
 
 ## Databases
 - PostgreSQL
