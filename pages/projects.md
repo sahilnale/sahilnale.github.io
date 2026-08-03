@@ -1,5 +1,10 @@
 # 🧪 Projects
 
+### [Distributed LLM Inference Server](https://github.com/sahilnale/distributed-llm-inference-server) 🔗
+A production-style LLM serving stack for Mistral-7B — FastAPI batching API, Redis request queue, and Prometheus/Grafana monitoring, all running on a custom distributed inference engine. Implemented four progressively better GPU tensor-parallelism strategies from scratch (Megatron-style MLP + attention head splitting across 2x V100 GPUs with NCCL/NVLink), taking throughput from a 0.64x regression to a 1.05x speedup over a single GPU.
+
+**Technologies:** Python, PyTorch, FastAPI, NCCL, Redis, Docker, Prometheus, Grafana
+
 ### [TradeWhiz](https://github.com/sahilnale/TradeWhiz)
 TradeWhiz allows users to simulate stock trading in a risk-free environment. It provides real-time stock data, market sentiment analysis, and helps users make informed trading decisions and practice their strategies without financial risk.
 

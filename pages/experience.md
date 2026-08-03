@@ -1,53 +1,55 @@
 # 👨‍💻 Experience
 
-**AI/ML Intern** @ [interactly.ai](https://www.interactly.ai/) _(Jun. 2024 – Present)_
+**Software Engineer Intern** @ [Amazon Web Services (AWS)](https://aws.amazon.com/) _(Jun. 2026 – Sept. 2026)_, Cupertino, CA
 
-Implemented custom small language models (SLMs) tailored to client-specific needs across various industries. Contributed to the development and deployment of machine learning solutions.
+Designing and building Helion, a serverless AWS service automating firmware recovery for lab hardware.
 - Detailed achievements:
-  - Developed over 10+ custom SLMs and synthetic datasets with over 1 million data points for fine-tuning models.
-  - Enhanced SLM response accuracy by 30% through the implementation of RAG techniques and vector databases.
-  - Reduced deployment time by 40% using AWS SageMaker for training and deploying SLMs with API endpoints for client access.
-- _**Technologies used:**_ Python, AWS SageMaker, Gemeni, RAG, Vector Databases
+  - Designed and built Helion, a serverless AWS service automating firmware recovery for lab hardware, replacing a ~6-hour manual process with a single API call for 5+ hardware engineering teams.
+  - Architected a 4-layer system with 5 secured REST APIs across 3 lab hardware environments, backed by 6 DynamoDB tables designed to sustain 10,000 writes/sec peak load.
+  - Cut hardware recovery to a sub-5s go/no-go decision and a ~2-4 hour fully automated restore with zero manual intervention, via serverless compute auto-scaling to 1,000 concurrent functions.
+  - Owned full AWS infrastructure as code (CDK) across 4 environments, including private networking, least-privilege IAM, encryption at rest, and CloudWatch monitoring/alarms.
+- _**Technologies used:**_ AWS Lambda, DynamoDB, CDK, IAM, CloudWatch, Serverless
 
 &nbsp;
 
-**Finance Data Science Intern** @ [FalconX](https://www.falconx.io/) _(Jun. 2024 – Present)_
+**Software Engineer Intern** @ [Amazon Web Services (AWS)](https://aws.amazon.com/) _(Jun. 2025 – Sept. 2025)_, Santa Clara, CA
 
-Focused on the application of machine learning and natural language processing to financial data, contributing to the development of trading strategies and tools.
+Built a serverless monitoring system for AWS Bedrock to keep production LLMs within benchmark and catch regressions automatically.
 - Detailed achievements:
-  - Implemented ML and NLP models for scraping SEC filings and market sentiment, reducing data retrieval time by 95%.
-  - Developed LSTM models for market trend analysis, leading to more informed trading decisions.
-  - Created a web dashboard to track metrics for portfolio management.
-- _**Technologies used:**_ Python, LSTM, NLP, Flask, MongoDB, SEC Filings, Market Sentiment
+  - Developed a serverless monitoring system for AWS Bedrock, orchestrating end-to-end Lambda + Step Functions workflows keeping LLMs within 10% of industry benchmarks and eliminating manual testing by 100%.
+  - Performed ETL in AWS Glue, partitioning logs and enabling sub-second Athena SQL queries across 100K+ records.
+  - Automated regression detection with CloudWatch alerts and hypothesis tests, and enabled real-time dashboards for p99 latency, BLEU, and error-rate, cutting detection time by 90%.
+  - Prototyped MCP-style connectors for AWS Bedrock Flows, a visual orchestration tool for multi-step AI workflows, enabling external API integration with execution handled by Lambda + Step Functions and packaged in Docker.
+- _**Technologies used:**_ AWS Bedrock, Lambda, Step Functions, Glue, Athena, CloudWatch, Docker
 
 &nbsp;
 
-**Undergraduate Research Assistant, Large Language Models** @ [UCSC AIES Lab](https://www.soe.ucsc.edu/research/ai-es) _(Jun. 2024 – Present)_
+**AI Engineering Intern** @ Chelle AI _(Jan. 2025 – Jun. 2025)_, Los Angeles, CA
 
-Engaged in research on LLM safety, output accuracy, and the improvement of logical reasoning capabilities.
+Benchmarked and fine-tuned LLMs to power an AI education platform.
 - Detailed achievements:
-  - Conducted research on LLM safety, focusing on output verification and hallucination reduction.
-  - Utilized Prolog for advanced logical reasoning and inference to enhance LLM interpretability and reliability.
-- _**Technologies used:**_ Python, Prolog, LLM, Logical Reasoning
+  - Benchmarked 10+ local and API-based LLMs with NLP metrics to select models that powered an AI education platform, improving content accuracy by 30%.
+  - Developed and trained a neural network using the REINFORCE algorithm in PyTorch, applying Bayesian Optimization for hyperparameters to fine-tune LLM prompt outputs, raising performance by 25% on BLEU and task success metrics.
+  - Integrated Hugging Face + PyTorch pipelines to automate evaluation, reducing iteration time by 40% across 100+ experiments.
+- _**Technologies used:**_ PyTorch, Hugging Face, REINFORCE, Bayesian Optimization, LLMs
 
 &nbsp;
 
-**Data Consultant** @ [DataRes](https://www.datares.com/) _(Jan. 2024 – Present)_
+**AI/ML Intern** @ [interactly.ai](https://www.interactly.ai/) _(Jun. 2024 – Sept. 2024)_, Milpitas, CA
 
-Provided data strategy consultation, focusing on AI-driven solutions and improving decision-making through advanced analytics.
+Built and fine-tuned custom small language models tailored to client-specific needs across industries.
 - Detailed achievements:
-  - Evaluated 10+ LLMs for clients, improving model selection accuracy by 30%.
-  - Fine-tuned models and engineered prompts, resulting in a 25% boost in performance metrics.
-  - Conducted A/B testing on various models and configurations to identify optimal solutions.
-- _**Technologies used:**_ Python, NLP, AWS, LLM, A/B Testing
+  - Built and fine-tuned 10+ SLMs (Small Language Models) using PyTorch + Hugging Face and 1M+ generated synthetic datapoints, improving accuracy by 30% for client apps in healthcare, finance, and support.
+  - Built vector databases (FAISS) to support retrieval-augmented generation and domain-specific knowledge grounding.
+- _**Technologies used:**_ Python, PyTorch, Hugging Face, FAISS, RAG
 
 &nbsp;
 
-**DevOps Intern** @ [Opsara Inc.](https://www.opsara.com/) _(Feb. 2023 – Jun. 2023)_
+**Undergraduate Research Assistant** @ UCLA Trustworthy AI Lab _(Dec. 2024 – Present)_, Los Angeles, CA
 
-Developed and maintained DevOps pipelines, focusing on server data retrieval and automation of workflows.
+Researching adversarial robustness and failure attribution in LLM agents.
 - Detailed achievements:
-  - Created Python and Bash scripts for retrieving server data from AWS, GCP, and on-premises servers.
-  - Automated workflows with Apache Airflow, ensuring efficient ETL processes.
-  - Built a web dashboard to track server inventory, reducing data retrieval time by 50%.
-- _**Technologies used:**_ Python, Bash, Apache Airflow, AWS, GCP, Flask
+  - Engineered a Dockerized Python testbed with FastAPI + SQL to run 500+ reproducible jailbreak evaluations.
+  - Designed modular multi-agent workflows with roles in LangChain + REST, enabling testing in 4+ scenarios.
+  - Developed a Divide-and-Conquer jailbreak with 24% higher success rates on GPT-4.1, Claude 3.5, and Gemini 2.0.
+- _**Technologies used:**_ Python, FastAPI, Docker, LangChain, SQL
