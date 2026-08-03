@@ -5,6 +5,11 @@ I'm a passionate developer and researcher currently studying at the University o
 
 # 🧪 Projects
 
+### [Transformer Graph Compiler](https://github.com/sahilnale/transformer-graph-compiler) 🔗
+A small ML compiler built from scratch: traces a GPT-2 block with torch.fx, lowers it into a custom SSA-style tensor IR, and runs classical compiler optimization passes over the graph — dead node elimination, constant folding, elementwise fusion, and add+layernorm fusion — each backed by correctness tests (36/36 passing). Paired with a standalone track of hand-written Triton GPU kernels (vector add, fused softmax) proving out the memory-bandwidth argument the fusion passes are motivated by.
+
+**Technologies:** Python, PyTorch, torch.fx, Triton, pytest
+
 ### [Distributed LLM Inference Server](https://github.com/sahilnale/distributed-llm-inference-server) 🔗
 A production-style LLM serving stack for Mistral-7B — FastAPI batching API, Redis request queue, and Prometheus/Grafana monitoring, all running on a custom distributed inference engine. Implemented four progressively better GPU tensor-parallelism strategies from scratch (Megatron-style MLP + attention head splitting across 2x V100 GPUs with NCCL/NVLink), taking throughput from a 0.64x regression to a 1.05x speedup over a single GPU.
 
