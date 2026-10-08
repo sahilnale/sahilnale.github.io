@@ -5,6 +5,11 @@ A semantic video-search application: describe a scene, find matching frames, and
 
 **Technologies:** Python, PyTorch, OpenCLIP, FFmpeg, Kafka, PostgreSQL/pgvector, Next.js, TypeScript, MinIO, Docker
 
+### [Metro Reliability Dashboard](https://github.com/sahilnale/metro-reliability-dashboard) 🔗
+An interactive map for exploring LA Metro bus reliability using live arrival predictions. Built a Python WebSocket ingestion pipeline and FastAPI/PostgreSQL backend that compares predictions with cached schedules and aggregates on-time percentages, average delays, and hourly patterns. The React/TypeScript interface uses Leaflet for route and stop exploration and Recharts for reliability charts. Includes scheduled ingestion through GitHub Actions and handles overnight service times to avoid false day-long delays.
+
+**Technologies:** Python, FastAPI, PostgreSQL, React, TypeScript, Leaflet, Recharts, Docker, GitHub Actions
+
 ### [Transformer Graph Compiler](https://github.com/sahilnale/transformer-graph-compiler) 🔗
 A small ML compiler built from scratch: traces a GPT-2 block with torch.fx, lowers it into a custom SSA-style tensor IR, and runs classical compiler optimization passes over the graph — dead node elimination, constant folding, elementwise fusion, and add+layernorm fusion — each backed by correctness tests (36/36 passing). Paired with a standalone track of hand-written Triton GPU kernels (vector add, fused softmax) proving out the memory-bandwidth argument the fusion passes are motivated by.
 
