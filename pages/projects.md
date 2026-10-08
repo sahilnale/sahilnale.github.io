@@ -1,5 +1,10 @@
 # 🧪 Projects
 
+### [FrameSearch](https://github.com/sahilnale/FrameSearch) 🔗
+A semantic video-search application: describe a scene, find matching frames, and play the original video at that moment. Built the Python processor and Next.js/TypeScript interface, using FFmpeg for timestamped frame extraction, OpenCLIP for image/text embeddings, and PostgreSQL/pgvector for visual retrieval. Kafka drives background indexing with atomic job claims, retry-safe writes, and bounded retries. The interface supports signed uploads, indexing status, library playback, and per-video search. Verified with 506 processor tests, 28 frontend tests, and real-video upload/search/playback checks.
+
+**Technologies:** Python, PyTorch, OpenCLIP, FFmpeg, Kafka, PostgreSQL/pgvector, Next.js, TypeScript, MinIO, Docker
+
 ### [Transformer Graph Compiler](https://github.com/sahilnale/transformer-graph-compiler) 🔗
 A small ML compiler built from scratch: traces a GPT-2 block with torch.fx, lowers it into a custom SSA-style tensor IR, and runs classical compiler optimization passes over the graph — dead node elimination, constant folding, elementwise fusion, and add+layernorm fusion — each backed by correctness tests (36/36 passing). Paired with a standalone track of hand-written Triton GPU kernels (vector add, fused softmax) proving out the memory-bandwidth argument the fusion passes are motivated by.
 
